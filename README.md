@@ -6,13 +6,12 @@ THIS DOCUMENT IS VERY MUCH WORK IN PROGRESS expect a high frequency of updates i
 Particular emphasis is placed on voice assistants in software development process.
 This repository is broken into two areas,
 
-1) General voice recognition
-And 
-2) Software Coding with voice.
+1) General voice recognition - voice typing or dictation
+2) Software Coding with voice - voice driven application control and dictation support.
 
 This repository does not have specific software as an output although it may contain examples of code. It is more about the documentation of successful applications and technologies for the use o voice.
 
-Where possible Technologies that are platform-agnostic are looked at But this authors predominant Desktop environment is Microsoft Windows 10 and  hence the bias. 
+Where possible Technologies that are platform-agnostic are looked at But this authors predominant Desktop environment is Microsoft Windows 10 and  hence the bias.g7
 
 Voice control, especially in a coding environment, is very dependent on context as opposed to General dictation . In  the common applications of voice recognition one may provide simple responses to audio prompts  or one is dictating.  Both these two common applications have very  little control of the broader contexts a user is operating in. in voice dictation one is usually working in a single context such as a document where you are predominantly working in paragraphs. voice coding and voice control however we as users require constant switching between a multitude of  applications or even contacts within an application.  encoding we are debugging writing code writing documentation doing source control comma searching for help and the list goes on. 
 
@@ -26,7 +25,14 @@ My current broad dictation tool of choice is Voice typing in Google docs.  I the
 For overall voice control and especially voice based coding I have looked at two products.  Caster and TalonVoice. both have been around for some period of time but it is the latest iteration ofTalonVoice (still in Beta)  that I find the most useful and cross-platform functionality. 
 TalonVoice  has-been freely available for Linux and Mac OS and in this current beta program is being ported to Windows.  The author and community are extremely active in the Beta ,help and other Talon slack channels.  
 
-While Caster and Talon both support Dragon they both also have alternate open source voice-recognition engines. The TalonVoice use of wav2letter  coming from Facebook in my experience and supported by tests performs as a a very fast highly accurate speech recognition engine 
+While Caster and Talon both support Dragon they both also have alternate open source voice-recognition engines. The TalonVoice use of wav2letter  coming from Facebook in my experience and supported by tests performs as a a very fast highly accurate speech recognition engine. 
+
+### Getting going using your voice to drive your computer.
+There is much that could be added to 
+Emily Shea's [Getting Started with Voice Driven Development](https://whalequench.club/blog/2019/09/03/learning-to-speak-code.html) but you have to get going first. This well written article will certainly get you started.
+
+Talon is in very active development with a new beta release providing support for windows. This beta release also brings a new api for writing commands without having to know a programming language. With some knowledge of python you can extend what Talon offers in many diverse ways but this is not necessary to get going.
+
 
 .
 
